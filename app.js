@@ -3,7 +3,7 @@ var x;
 
 async function func() {
   const result = await fetch(
-    "http://blynk-cloud.com/E9sQ_1ZWxpBiHE-wPIqjfX5AO5C4JHTY/get/v2"
+    "http://blynk-cloud.com/E9sQ_1ZWxpBiHE-wPIqjfX5AO5C4JHTY/get/v8"
   );
   const data = await result.json();
   x = data[0];
@@ -16,7 +16,7 @@ async function func() {
         datasets: [
         {
             label: ["# of Votes"],
-            data: [x, 500 - x],
+            data: [x, 100 - x],
             backgroundColor: ["rgba(100, 99, 132, 0.8)"],
             borderColor: ["rgba(255,99,132,1)"],
             borderWidth: 1
