@@ -1,10 +1,9 @@
 
 var x;
+let baseURL = "http://blynk-cloud.com/E9sQ_1ZWxpBiHE-wPIqjfX5AO5C4JHTY/get/v8";
 
 async function func() {
-  const result = await fetch(
-    "http://blynk-cloud.com/E9sQ_1ZWxpBiHE-wPIqjfX5AO5C4JHTY/get/v8"
-  );
+  const result = await fetch(baseURL);
   const data = await result.json();
   x = data[0];
 
