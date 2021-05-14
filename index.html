@@ -8,7 +8,25 @@
 
   <body>
     <div id="app"><canvas id="myChart" width="400" height="400"></canvas></div>
+    <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
+.bg {
+  /* The image used */
+  background-image: url("background.jpeg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js" integrity="sha512-CTiTx27lUxqoBGKfEHj2giGQTRdWgwJHNixfAOzPo5Hb86I03/YwYt+wpTM2TjFGespwSgQwUWKtLHPt2zTTDA==" crossorigin="anonymous"></script>
     <script src="app.js"></script>
   </body>
