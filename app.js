@@ -3,7 +3,7 @@ var x;
 
 async function func() {
   const result = await fetch(
-    "http://blynk-cloud.com/E9sQ_1ZWxpBiHE-wPIqjfX5AO5C4JHTY/get/v8"
+    "http://blynk-cloud.com/E9sQ_1ZWxpBiHE-wPIqjfX5AO5C4JHTY/get/v2"
   );
   const data = await result.json();
   x = data[0];
