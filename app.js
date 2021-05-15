@@ -6,7 +6,7 @@ async function func() {
   const result = await fetch(baseURL);
   const data = await result.json();
   x = data[0];
-  document.body.style.backgroundImage = "url('background.jpeg')";
+//  document.body.style.backgroundImage = "url('background.jpeg')";
   
     var ctx = document.getElementById("myChart");
     var myChart = new Chart(ctx, {
