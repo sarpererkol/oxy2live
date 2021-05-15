@@ -17,7 +17,7 @@ async function func() {
         {
             label: ["# of Votes"],
             data: [x, 100 - x],
-            backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+            backgroundColor: ["rgba(17, 100, 12, 0.2)"],
             borderColor: ["rgba(255,99,132,1)"],
             borderWidth: 1
         }
