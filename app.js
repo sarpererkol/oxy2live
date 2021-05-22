@@ -12,7 +12,7 @@ async function func() {
     var myChart = new Chart(ctx, {
     type: "doughnut",
     data: {
-        labels: ["Oxygen Rate"],
+        labels: ["Sarper ERKOL"],
         datasets: [
         {
             label: ["# of Votes"],
